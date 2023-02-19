@@ -1,0 +1,99 @@
+
+@font-face {
+    font-family: Norse;
+    src: url(Norse-Bold\ \(1\).otf);
+}
+
+body {
+    margin: 0rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    transform: translate(0, 5%);
+    border: 10px greenyellow solid;
+    padding-bottom: 100px;
+    border-radius: 20px;
+}
+ 
+
+
+
+img {
+    height: 100%;
+}
+
+.valk{
+    position: absolute;
+    z-index: -1;
+}
+
+.ODIN {
+    display: flex;
+    align-items: center;
+    transform: translate(0, 100%);
+    z-index: 9;
+    font-family: Norse;
+    font-size: 100px;
+    background-color: aliceblue;
+    opacity: 0.9;
+    padding-right: 100px;
+    padding-left: 101px;
+}
+
+.ODIN > .odinlogo {
+    width: 120px;
+    height: 150px;
+}
+
+
+.input{
+    background-color: azure;
+    transform: translateY(0%);
+    padding: 40px;
+    box-shadow: 0px 6px 9px 0px black;
+}
+
+.rightside {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.submit {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.words {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+
+input, label {
+    display: flex;
+    flex-direction: column;
+}
+
+.name, .details, .passwords {
+    display: flex;
+    gap:100px;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+}
